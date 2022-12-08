@@ -9,12 +9,11 @@ class Comandos(models.Model):
 class Olt(models.Model):
     id = models.AutoField(primary_key=True)
     nome = models.CharField(blank=False, max_length=100)
-
+    ip = models.CharField(blank=False, max_length=100, default='0.0.0.0')
 
 class Onu(models.Model):
     id = models.AutoField(primary_key=True)
     marca = models.CharField(blank=False, max_length=100)
-    
 
 class Roteador(models.Model):
     id = models.AutoField(primary_key=True)
@@ -22,9 +21,10 @@ class Roteador(models.Model):
     modelo = models.CharField(blank=False, max_length=100)
     transmissao = models.CharField(blank=False, max_length=100)
     emulador = models.CharField(blank=False, default="Não Localizado", max_length=100)
+    foto = models.ImageField(blank=True)
 
 
-class Perfils(models.Model):
+class Perfis(models.Model):
     id = models.AutoField(primary_key=True)
     perfil = models.CharField(blank=False, max_length=100)
     descricao = models.CharField(blank=False, max_length=100)
@@ -45,7 +45,6 @@ class Usuarios(models.Model):
     estagiario = models.CharField(default=0, max_length=100)
     efetivo = models.CharField(default=0, max_length=100)
     admin = models.CharField(default=0, max_length=100)
-
 
 def __str__(self):
     return self.nome

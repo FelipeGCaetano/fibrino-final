@@ -27,7 +27,7 @@ class OltViewSet(viewsets.ModelViewSet):
     serializer_class = OltSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['nome']
+    search_fields = ['nome', 'ip']
     #filterset_fields = ['ativo']
 
 class RoteadorViewSet(viewsets.ModelViewSet):
@@ -36,7 +36,7 @@ class RoteadorViewSet(viewsets.ModelViewSet):
     serializer_class = RoteadorSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['marca', 'modelo','transmissao','emulador']
+    search_fields = ['marca', 'modelo', 'transmissao', 'emulador']
     #filterset_fields = ['ativo']
 
 class RoteadorLoginViewSet(viewsets.ModelViewSet):
@@ -45,13 +45,13 @@ class RoteadorLoginViewSet(viewsets.ModelViewSet):
     serializer_class = RoteadorLoginSeriealizer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['roteador_id', 'usuario','senha']
-    #filterset_fields = ['ativo']
+    search_fields = ['roteador_id', 'usuario', 'senha']
+    #filterset_fields = ['ativo'] 
 
-class PerfilsViewSet(viewsets.ModelViewSet):
+class PerfisViewSet(viewsets.ModelViewSet):
     """Listando Perfis"""
-    queryset = Perfils.objects.all()
-    serializer_class = PerfilsSerializer
+    queryset = Perfis.objects.all()
+    serializer_class = PerfisSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
     search_fields = ['perfil', 'descicao']

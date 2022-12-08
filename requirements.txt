@@ -28,3 +28,4 @@ tzdata==2022.6
 validate-docbr==1.10.0
 whitenoise==6.2.0
 wrapt==1.14.1
+Pillow==9.1.0

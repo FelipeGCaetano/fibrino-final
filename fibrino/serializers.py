@@ -20,16 +20,16 @@ class RoteadorSerializer(serializers.ModelSerializer):
 class RoteadorLoginSeriealizer(serializers.ModelSerializer):
     class Meta:
         model = RoteadorLogin
-        fields = '__all__'
+        fields = ['nome', 'ip']
     
 class OltSerializer(serializers.ModelSerializer):
     class Meta:
         model = Olt
         fields = '__all__'
         
-class PerfilsSerializer(serializers.ModelSerializer):
+class PerfisSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Perfils
+        model = Perfis
         fields = '__all__'
 
 class UsuariosSerializer(serializers.ModelSerializer):
