@@ -2,7 +2,7 @@ from django.db import models
 
 class Comandos(models.Model):
     id = models.AutoField(primary_key=True)
-    header = models.EmailField(blank=False, max_length=100)
+    header = models.CharField(blank=False, max_length=100)
     descricao = models.CharField(unique=True, max_length=100)
 
 

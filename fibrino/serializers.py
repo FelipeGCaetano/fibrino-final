@@ -20,7 +20,7 @@ class RoteadorSerializer(serializers.ModelSerializer):
 class RoteadorLoginSeriealizer(serializers.ModelSerializer):
     class Meta:
         model = RoteadorLogin
-        fields = ['nome', 'ip']
+        fields = '__all__'
     
 class OltSerializer(serializers.ModelSerializer):
     class Meta:

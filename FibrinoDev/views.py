@@ -54,7 +54,7 @@ class PerfisViewSet(viewsets.ModelViewSet):
     serializer_class = PerfisSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['perfil', 'descicao']
+    search_fields = ['perfil', 'descricao']
 
 class UsuariosViewSet(viewsets.ModelViewSet):
     """Listando Usuarios"""
