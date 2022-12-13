@@ -1,16 +1,14 @@
-import os
 import socket
+import subprocess
 
 def testeConexao(ip, port):
-    conectado = False
-    connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    if connection.connect_ex(("127.0.0.1", int(port))):
-        print("Porta", port, "esta fechada")
-    else:
-        print("Porta", port, "esta aberta")
-        conectado = True
+    while True:
+        connection = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  
+        if connection.connect_ex((ip, int(port))):
+            print("Porta", port, "esta fechada")
+            print(subprocess.run(["python manage.py runserver"], shell=True))
+        else:
+            pass
     
-    while conectado == False:
-        os.system("python manage.py runserver")
-
-testeConexao("127.0.0.1", "8000")
+if __name__ == '__main__':
+    testeConexao("127.0.0.1", "8000")
