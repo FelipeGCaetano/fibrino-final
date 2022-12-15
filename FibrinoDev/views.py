@@ -9,7 +9,7 @@ class ComandosViewSet(viewsets.ModelViewSet):
     serializer_class = ComandosSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['header', 'descricao']
+    search_fields = ['comando', 'descricao']
     #filterset_fields = ['ativo']
 
 
@@ -63,4 +63,3 @@ class UsuariosViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
     search_fields = ['nome', 'nome_usuario', 'senha', 'estagiario', 'efetivo', 'admin']
-

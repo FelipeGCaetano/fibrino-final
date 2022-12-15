@@ -1,8 +1,11 @@
 from django.db import models
+from dict_funcao_comandos import FUNÇÃO
 
 class Comandos(models.Model):
     id = models.AutoField(primary_key=True)
-    header = models.CharField(blank=False, max_length=100)
+    dict_funcao = FUNÇÃO
+    função = models.CharField(max_length=100, choices=dict_funcao, blank=False, null=False, default=' ')
+    comando = models.CharField(blank=False, max_length=100)
     descricao = models.CharField(unique=True, max_length=100)
 
 
