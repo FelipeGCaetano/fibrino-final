@@ -1,5 +1,5 @@
 from django.db import models
-from dict_funcao_comandos import FUNÇÃO
+from dict_funcao_comandos import FUNÇÃO, marcas
 
 class Comandos(models.Model):
     id = models.AutoField(primary_key=True)
@@ -20,7 +20,7 @@ class Onu(models.Model):
 
 class Roteador(models.Model):
     id = models.AutoField(primary_key=True)
-    marca = models.CharField(blank=False, max_length=100)
+    marca = models.CharField(blank=False, choices=marcas, max_length=100)
     modelo = models.CharField(blank=False, max_length=100)
     transmissao = models.CharField(blank=False, max_length=100)
     emulador = models.CharField(blank=False, default="Não Localizado", max_length=100)
@@ -35,7 +35,7 @@ class Perfis(models.Model):
 
 class RoteadorLogin(models.Model):
     id = models.AutoField(primary_key=True)
-    roteador_id = models.ForeignKey(Roteador, on_delete=models.CASCADE)
+    marca_roteador = models.CharField(choices=marcas, max_length=100, default=' ')
     usuario = models.CharField(blank=False, max_length=100)
     senha = models.CharField(blank=False, max_length=100)
 

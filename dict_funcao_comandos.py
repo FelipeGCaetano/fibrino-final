@@ -13,3 +13,12 @@ FUNÇÃO = (
     ('Reiniciar a ONU', 'Reiniciar a ONU'),
     ('Pesquisar a localização pela primária', 'Pesquisar a localização pela primária'),
 )
+
+marcas = (
+    ('Huawei', 'Huawei'),
+    ('TP-link', 'TP-link'),
+    ('Intelbras', 'Intelbras'),
+    ('Mercusys', 'Mercusys'),
+    ('D-link', 'D-link'), 
+    ('Tenda', 'Tenda'),
+)

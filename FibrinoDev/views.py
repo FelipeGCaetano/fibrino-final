@@ -3,6 +3,7 @@ from fibrino.serializers import *
 from FibrinoDev.models import *
 from django_filters.rest_framework import DjangoFilterBackend
 
+
 class ComandosViewSet(viewsets.ModelViewSet):
     """Listando comandos"""
     queryset = Comandos.objects.all()
@@ -10,8 +11,6 @@ class ComandosViewSet(viewsets.ModelViewSet):
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
     search_fields = ['comando', 'descricao']
-    #filterset_fields = ['ativo']
-
 
 class OnuViewSet(viewsets.ModelViewSet):
     """Listando ONU"""
@@ -62,4 +61,4 @@ class UsuariosViewSet(viewsets.ModelViewSet):
     serializer_class = UsuariosSerializer
     filter_backends = [DjangoFilterBackend, filters.OrderingFilter, filters.SearchFilter]
     ordering_fields = ['id']
-    search_fields = ['nome', 'nome_usuario', 'senha', 'estagiario', 'efetivo', 'admin']
+    search_fields = ['nome_usuario']

@@ -12,7 +12,6 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 import os
-import logging
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -41,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'FibrinoDev',
     'rest_framework',
+    'admin_honeypot',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -51,6 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.middleware.locale.LocaleMiddleware',
 ]
 
 ROOT_URLCONF = 'fibrino.urls'
@@ -129,22 +131,22 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-REST_FRAMEWORK = {
-    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.QueryParameterVersioning',
-    'DEFAULT_PERMISSION_CLASSES':[
-        'rest_framework.permissions.IsAuthenticated',
-        'rest_framework.permissions.DjangoModelPermissions'
-    ],
-    'DEFAULT_AUTHENTICATION_CLASSES':[
-        'rest_framework.authentication.BasicAuthentication'
-    ],
-     'DEFAULT_THROTTLE_CLASSES': [
-         'rest_framework.throttling.AnonRateThrottle',
-    ],
-     'DEFAULT_THROTTLE_RATES': {
-         'anon': '100/day',
-    }
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.QueryParameterVersioning',
+#     'DEFAULT_PERMISSION_CLASSES':[
+#         'rest_framework.permissions.IsAuthenticated',
+#         'rest_framework.permissions.DjangoModelPermissions'
+#     ],
+#     'DEFAULT_AUTHENTICATION_CLASSES':[
+#         'rest_framework.authentication.BasicAuthentication'
+#     ],
+#      'DEFAULT_THROTTLE_CLASSES': [
+#          'rest_framework.throttling.AnonRateThrottle',
+#     ],
+#      'DEFAULT_THROTTLE_RATES': {
+#          'anon': '100/day',
+#     }
+# }
 
 LOGGING = {
     'version': 1,
