@@ -1233,3 +1233,423 @@ INFO "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
 INFO "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
 INFO "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
 INFO "GET /swagger/?format=openapi HTTP/1.1" 200 17521
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8576
+INFO "GET /comandos/ HTTP/1.1" 200 17562
+INFO "GET /roteador/ HTTP/1.1" 200 18448
+WARNING Not Found: /media/TL-WR940N.jpg
+WARNING "GET /media/TL-WR940N.jpg HTTP/1.1" 404 8600
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8576
+INFO "GET /roteador/1 HTTP/1.1" 301 0
+INFO "GET /roteador/1/ HTTP/1.1" 200 17009
+INFO "PUT /roteador/1/ HTTP/1.1" 200 17652
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8576
+INFO "GET /roteador/ HTTP/1.1" 200 18791
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8576
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8702
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO "GET / HTTP/1.1" 200 10907
+INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8826
+WARNING Not Found: /index
+WARNING "GET /index HTTP/1.1" 404 8808
+ERROR Internal Server Error: /config-olt
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fibrino/index.html
+ERROR "GET /config-olt HTTP/1.1" 500 80383
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /config-olt
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: \fibrino\templates\fibrino\index.html
+ERROR "GET /config-olt HTTP/1.1" 500 78469
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /config-olt
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: \fibrino\templates\fibrino\index.html
+ERROR "GET /config-olt HTTP/1.1" 500 78548
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8826
+ERROR Internal Server Error: /config-olt
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: \fibrino\templates\fibrino\index.html
+ERROR "GET /config-olt HTTP/1.1" 500 78548
+INFO "GET / HTTP/1.1" 200 10907
+ERROR Internal Server Error: /config-olt
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: \fibrino\templates\fibrino\index.html
+ERROR "GET /config-olt HTTP/1.1" 500 78411
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /config-olt
+WARNING "GET /config-olt HTTP/1.1" 404 8699
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /config-olt
+WARNING "GET /config-olt HTTP/1.1" 404 8880
+INFO "GET / HTTP/1.1" 200 10907
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /config-root
+WARNING "GET /config-root HTTP/1.1" 404 8812
+WARNING Not Found: /config-config-olt
+WARNING "GET /config-config-olt HTTP/1.1" 404 8830
+WARNING Not Found: /config-olt
+WARNING "GET /config-olt HTTP/1.1" 404 8880
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /config
+WARNING "GET /config HTTP/1.1" 404 8797
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /config
+WARNING "GET /config HTTP/1.1" 404 8797
+WARNING Not Found: /config-olt
+WARNING "GET /config-olt HTTP/1.1" 404 8876
+WARNING Not Found: /config-olt
+WARNING "GET /config-olt HTTP/1.1" 404 8876
+WARNING Not Found: /config-olt/config
+WARNING "GET /config-olt/config HTTP/1.1" 404 8897
+WARNING Not Found: /config/config-olt
+WARNING "GET /config/config-olt HTTP/1.1" 404 8830
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /config/config-olt
+WARNING "GET /config/config-olt HTTP/1.1" 404 8893
+WARNING Not Found: /config/config
+WARNING "GET /config/config HTTP/1.1" 404 8881
+WARNING Not Found: /config/index
+WARNING "GET /config/index HTTP/1.1" 404 8878
+WARNING Not Found: /config/config
+WARNING "GET /config/config HTTP/1.1" 404 8881
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 8809
+WARNING Not Found: /config
+WARNING "GET /config HTTP/1.1" 404 8794
+ERROR Internal Server Error: /config/config
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: \fibrino\templates\fibrino\index.html
+ERROR "GET /config/config HTTP/1.1" 500 78482
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /config/config
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: fibrino\index.html
+ERROR "GET /config/config HTTP/1.1" 500 81044
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /config/config
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET /config/config HTTP/1.1" 500 80879
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /config/config
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 90, in rendered_content
+    template = self.resolve_template(self.template_name)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\response.py", line 72, in resolve_template
+    return select_template(template, using=self.using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 47, in select_template
+    raise TemplateDoesNotExist(", ".join(template_name_list), chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET /config/config HTTP/1.1" 500 80879
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /teste
+WARNING "GET /teste HTTP/1.1" 404 8790
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+WARNING Not Found: /teste
+WARNING "GET /teste HTTP/1.1" 404 2756
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py", line 69, in index
+    return render(request, 'index.html')
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET / HTTP/1.1" 500 81603
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py", line 69, in index
+    return render(request, 'index.html')
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET / HTTP/1.1" 500 81603
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET / HTTP/1.1" 500 82755
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py changed, reloading.
+INFO Watching for file changes with StatReloader
+ERROR Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\felipe.leitao\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+ERROR "GET / HTTP/1.1" 500 82666
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 1154
+WARNING Not Found: /index.css
+WARNING "GET /index.css HTTP/1.1" 404 2768
+WARNING Not Found: /favicon.ico
+WARNING "GET /favicon.ico HTTP/1.1" 404 2774
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\fibrino\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907
+WARNING Not Found: /teste
+WARNING "GET /teste HTTP/1.1" 404 8790
+INFO Watching for file changes with StatReloader
+INFO "GET /teste HTTP/1.1" 301 0
+INFO "GET /teste/ HTTP/1.1" 200 1154
+WARNING Not Found: /teste/index.css
+WARNING "GET /teste/index.css HTTP/1.1" 404 8881
+INFO C:\Users\felipe.leitao\Desktop\Estudo\fibrino-final\FibrinoDev\urls.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO "GET / HTTP/1.1" 200 10907

@@ -33,11 +33,10 @@ schema_view = get_schema_view(
 
 
 urlpatterns = [
+    path('controle-geral/', admin.site.urls), #Django admin
+    path('', include(router.urls)), #Todas urls viewset
+    path('teste/', include('FibrinoDev.urls')), #Pagina html
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
-    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')),
-    path('controle-geral/', admin.site.urls),
-    path('', include(router.urls)),
+    path('admin/', include('admin_honeypot.urls', namespace='admin_honeypot')), #Fake Django admin
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-

@@ -24,7 +24,7 @@ class Roteador(models.Model):
     modelo = models.CharField(blank=False, max_length=100)
     transmissao = models.CharField(blank=False, max_length=100)
     emulador = models.CharField(blank=False, default="Não Localizado", max_length=100)
-    foto = models.ImageField(blank=True)
+    foto = models.ImageField(blank=True, max_length=255)
 
 
 class Perfis(models.Model):

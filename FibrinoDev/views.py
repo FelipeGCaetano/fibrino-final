@@ -1,7 +1,13 @@
 from rest_framework import viewsets, filters
 from fibrino.serializers import *
 from FibrinoDev.models import *
+from django.views.generic import TemplateView
 from django_filters.rest_framework import DjangoFilterBackend
+from django.shortcuts import render
+
+
+def index(request):
+    return render(request, 'index.html')
 
 
 class ComandosViewSet(viewsets.ModelViewSet):
